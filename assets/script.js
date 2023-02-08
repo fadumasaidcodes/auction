@@ -69,3 +69,19 @@ bidForm.addEventListener("submit", (event) => {
   // Send an email notification to the highest bidder
 });
 
+// Location Tracking and Map Display functions
+// Location Tracking and Map Display functions
+const getLocation = () => {
+    if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(displayLocation, showError);
+    } else {
+    alert("Geolocation is not supported by this browser.");
+    }
+    };
+    
+    const displayLocation = (position) => {
+    const lat = position.coords.latitude;
+    const lng = position.coords.longitude;
+    
+    // Use the Latitude and Longitude to display the location on a map (using a map API such as Google Maps)
+    };
