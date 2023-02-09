@@ -31,3 +31,6 @@ This feature allows users to create and list new items for sale. It includes cap
 
 ## Bidding System
 The bidding system is the core feature of the platform. It allows users to place bids on items, captures the maximum bid amount, updates the current bid, and sends email notifications to the users when they are outbid or win an auction.
+
+## Map and Location Features
+This feature displays the location of the items for sale and allows users to view items on a map. It utilizes the location information provided by APIs like LocationIQ.
