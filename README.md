@@ -43,3 +43,5 @@ The application will be thoroughly tested to ensure that all features are functi
 
 ## Conclusion
 This project plan outlines the steps necessary to create a robust and user-friendly platform for buying and selling items through an auction system. With the implementation of user authentication and registration, item creation and listing, bidding system, map and location features, media upload feature, and thorough testing and refinement, this platform is sure to provide a seamless experience for all users.
+
+## Credit 
