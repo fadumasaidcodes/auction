@@ -22,3 +22,6 @@ This project aims to create a platform for users to buy and sell items through a
 * Implement the map and location features.
 * Implement the media upload feature.
 * Test and refine the application.
+
+## User Authentication and Registration
+This feature will allow users to create an account, log in, and log out. It is crucial for the proper functioning of the platform as all other features depend on a user being logged in.
