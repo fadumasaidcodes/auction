@@ -25,3 +25,6 @@ This project aims to create a platform for users to buy and sell items through a
 
 ## User Authentication and Registration
 This feature will allow users to create an account, log in, and log out. It is crucial for the proper functioning of the platform as all other features depend on a user being logged in.
+
+## Item Creation and Listing
+This feature allows users to create and list new items for sale. It includes capturing the item name, photo, description, and date and time of the listing.
