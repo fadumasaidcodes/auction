@@ -34,3 +34,12 @@ The bidding system is the core feature of the platform. It allows users to place
 
 ## Map and Location Features
 This feature displays the location of the items for sale and allows users to view items on a map. It utilizes the location information provided by APIs like LocationIQ.
+
+## Media Upload Feature
+This feature allows users to upload photos, videos, and audio clips related to the items they are selling. It enhances the user experience by providing a more comprehensive view of the items.
+
+## Testing and Refinement
+The application will be thoroughly tested to ensure that all features are functioning correctly. The code and functionality will be refined as necessary based on the results of the testing.
+
+## Conclusion
+This project plan outlines the steps necessary to create a robust and user-friendly platform for buying and selling items through an auction system. With the implementation of user authentication and registration, item creation and listing, bidding system, map and location features, media upload feature, and thorough testing and refinement, this platform is sure to provide a seamless experience for all users.
