@@ -12,3 +12,13 @@ This project aims to create a platform for users to buy and sell items through a
 - APIs like LocationIQ for location information.
 
 ```
+## Project Plan
+* Review the requirements and define the goals and objectives of the project.
+* Design the database structure and create the necessary tables.
+* Set up the development environment and install the necessary tools and libraries.
+* Implement user authentication and registration.
+* Implement item creation and listing.
+* Implement the bidding system.
+* Implement the map and location features.
+* Implement the media upload feature.
+* Test and refine the application.
