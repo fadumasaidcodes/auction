@@ -28,3 +28,6 @@ This feature will allow users to create an account, log in, and log out. It is c
 
 ## Item Creation and Listing
 This feature allows users to create and list new items for sale. It includes capturing the item name, photo, description, and date and time of the listing.
+
+## Bidding System
+The bidding system is the core feature of the platform. It allows users to place bids on items, captures the maximum bid amount, updates the current bid, and sends email notifications to the users when they are outbid or win an auction.
