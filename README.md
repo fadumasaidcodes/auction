@@ -6,7 +6,8 @@ This project aims to create a platform for users to buy and sell items through a
 
 ## Technology Stack
 ```
-- HTML, Node.js, and Express for the backend.
+- HTML, CSS and Javascript for the frontend.
+- Node.js, and Express for the backend.
 - SQL for the database.
 - APIs like LocationIQ for location information.
 
