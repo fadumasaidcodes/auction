@@ -2,84 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css"
+        integrity="sha512-dSf6nLXbYh8udjKLFz4+4l4DgRvRfsZwWx7sFz54kDjQvY8h3Wd7IaP+45u3qZfIbQCIbBjSGNGGt+jhep75Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-kkwLjJg3wObBJit+2GZKsmRBShx0cvy20g9L8M0DtjJphsyzuVHyPvlWRnmFbAIHMHmCf+6ZjhJ/hpLdnORF/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/index.css">
+
     <title>Auction</title>
 </head>
 
 <body>
-    <!-- Login Page -->
-    <div id="login-register">
-        <form id="login-form">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
-            <button type="submit">Login</button>
-        </form>
-        <!-- Register Page -->
-        <form id="register-form">
-            <input type="email" placeholder="Email">
-            <input type="phone" placeholder="Phone number">
-            <input type="password" placeholder="Password">
-            <button type="submit">Register</button>
-        </form>
-    </div>
-    <!-- Sell new item page -->
-    <div id="sell-item">
-        <form id="sell-item-form">
-            <input type="text" placeholder="Item name">
-            <input type="file" placeholder="Upload photo">
-            <textarea placeholder="Item description"></textarea>
-            <button type="submit">Sell</button>
-        </form>
-    </div>
-    <!-- My items page -->
-    <div id="my-items">
-        <table>
-            <tr>
-                <th>Item name</th>
-                <th>Item photo</th>
-                <th>Date added</th>
-            </tr>
-            <!-- Populate with data from database -->
-            <tr>
-                <td>Example item</td>
-                <td><img src="example-item.jpg"></td>
-                <td>01/01/2023</td>
-            </tr>
-        </table>
-    </div>
-    <!-- Homepage -->
-<div id="homepage">
-    <table>
-      <tr>
-        <th>Item name</th>
-        <th>Item photo</th>
-        <th>Date added</th>
-        <th>Username</th>
-      </tr>
-      <!-- Populate with data from database -->
-      <tr>
-        <td>Example item</td>
-        <td><img src="example-item.jpg"></td>
-        <td>01/01/2023</td>
-        <td>User123</td>
-      </tr>
-    </table>
-  </div>
-  <!-- Product Details -->
-<div id="product-details">
-    <h2>Item name</h2>
-    <img src="example-item.jpg">
-    <p>Item description</p>
-    <p>Date added: 01/01/2023</p>
-    <p>Seller's phone number: 123-456-7890</p>
-    <p>Seller's email address: example@email.com</p>
-    <form id="bid-form">
-      <input type="number" placeholder="Place bid">
-      <button type="submit">Bid</button>
-    </form>
-</div>
-</body>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Login</h5>
+                <p class="p"> Please Enter your Login and Password</p>
+                <form>
+                    <div class="form-group">
+                        <label for="inputEmail">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
 
-</html>
+                <div class="d-flex justify-content-between align-items-center mt-4">
+                    <a href="#!" class="text-white">Forgot Password?</a>
+                    <div>
+                        <a href="#!" class="text-white me-3">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="#!" class="text-white">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="text-center mt-3">
+                        <p class="text-white" style="display: inline-block;">Don't have an account?</p>
+                        <a href="#!" class="btn btn-secondary" style="display: inline-block;">Sign up</a>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-3">
+        <p class="text-white">Don't have an account?</p>
+        <a href="#!" class="btn btn-secondary">Sign up</a>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core theme JS-->
+    <script src="./assets/script.js"
